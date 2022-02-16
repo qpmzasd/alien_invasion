@@ -10,6 +10,7 @@ class Settings:
 
         # 飞船的设置
         self.ship_speed = 1.5
+        self.ship_limit = 3
 
         # 子弹的设置
         self.bullet_speed = 1.5
@@ -20,8 +21,8 @@ class Settings:
 
         # 外星人设置
         # 外星人平移速度
-        self.alien_speed = 0.1
+        self.alien_speed = 1
         # 外星人下落速度
-        self.fleet_drop_speed = 5
+        self.fleet_drop_speed = 10
         # fleet_direction为1表示向右移动，为-1表示向左移动。
         self.fleet_direction = 1
