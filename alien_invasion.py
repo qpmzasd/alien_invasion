@@ -12,7 +12,6 @@ from bullet import Bullet
 from alien import Alien
 
 
-
 class AlienInvasion:
     """管理游戏资源和行为的类"""
 
@@ -44,7 +43,6 @@ class AlienInvasion:
 
         # 创建开始按钮
         self.play_button = Button(self, "Go!!!")
-
 
     def run_game(self):
         """开始游戏的主循环"""
